@@ -39,7 +39,7 @@ const Footer = () => {
           <FaLinkedin /> LinkedIn
         </a>
 
-        <a href="karanrana705021@gmail.com">
+        <a href="#top">
           <FaEnvelope /> Email
         </a>
       </div>

@@ -18,7 +18,7 @@ const Intro = () => {
                 <h3>You can See my works down</h3>
                 <div className="social-links">
                     <a
-                        href="https://github.com/yourusername"
+                        href="https://github.com/rana-ji0001"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -26,7 +26,7 @@ const Intro = () => {
                     </a>
 
                     <a
-                        href="https://linkedin.com/in/yourusername"
+                        href="https://www.linkedin.com/in/karan-rana-a67b46350/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -34,7 +34,7 @@ const Intro = () => {
                     </a>
 
                     <a
-                        href="https://leetcode.com/u/yourusername"
+                        href="https://leetcode.com/u/karan_rana01/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -47,14 +47,14 @@ const Intro = () => {
                 <h6><FaEnvelope />  karanrana705021@gmail.com</h6>
                 <h6><FaMapMarkerAlt />  Delhi, 110094</h6>
                 <div className='resume-div'>
-                    <h3>If Someone has Job for me download my Resume</h3>
+                    <h3>Let's connect and create something impactful👇</h3>
                     <a href="/Resume.pdf" download className="resume-btn">
                         Resume
                     </a>
                 </div>
             </div>
             <div className="scroll-down">
-                <FaArrowDown />
+                <a href="#skills"><FaArrowDown /></a>
             </div>
 
         </section>
