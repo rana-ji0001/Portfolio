@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaLink  } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import nimbusnote from "../assets/nimbusnote.bmp";
 import alinaAI from "../assets/alina-ai.png";
@@ -8,7 +8,7 @@ import heartDisease from "../assets/heart-disease.jpeg";
 
 const Project = () => {
   return (
-    <section className='project-section'>
+    <section className='project-section' id='projects'>
       <h1>Some Of The Works I Have Done</h1>
       <div className='p1'>
         <a
@@ -20,6 +20,14 @@ const Project = () => {
         <div className='p1-desc'>
           <h2>NimbusNote</h2>
           <p>NimbusNote is a secure MERN-based note management application that helps users create, organize, and manage their personal notes with authentication and tagging support.</p>
+          <span>React</span>
+          <span>Node.js</span>
+          <span>Express.js</span>
+          <span>MongoDB</span>
+          <span>JWT</span>
+          <span>bcrypt.js</span>
+          <span>Bootstrap</span>
+
           {/* <a href="YOUR_LIVE_LINK" target="_blank">Live Demo</a> */}
           <a href="https://github.com/rana-ji0001/NimbusNote" target="_blank"><FaGithub />Github</a>
 
@@ -35,6 +43,12 @@ const Project = () => {
         <div className='p1-desc'>
           <h2>Alina-AI</h2>
           <p>ALIna AI is a Python-based voice assistant that uses speech recognition technology to listen to a user's voice, convert spoken words into text, and process commands in real time.</p>
+          <span>Python</span>
+          <span>OpenAI API</span>
+          <span>pyttsx3</span>
+          <span>SpeechRecognition</span>
+          <span>NewsAPI</span>
+
           {/* <a href="YOUR_LIVE_LINK" target="_blank">Live Demo</a> */}
           <a href="https://github.com/rana-ji0001/Alina-AI" target="_blank"><FaGithub />Github</a>
 
@@ -51,7 +65,11 @@ const Project = () => {
           <h2>TextCustomizer</h2>
           <p>TextCustomizer is a web-based text transformation tool that helps users quickly modify and format text in different styles.
             It provides multiple text customization options, making it useful for content creators, students, developers, and anyone who frequently works with text.</p>
-          <a href="https://rana-ji0001.github.io/TextCustomizer/" target="_blank">Live Demo</a>
+          <span>React.js</span>
+          <span>Javascript</span>
+          <span>Bootstrap</span>
+          <span>Html</span>
+          <a href="https://rana-ji0001.github.io/TextCustomizer/" target="_blank"><FaLink/>Live Demo</a>
           <a href="https://github.com/rana-ji0001/TextCustomizer" target="_blank"><FaGithub />Github</a>
 
         </div>
@@ -65,8 +83,15 @@ const Project = () => {
         </a>
         <div className='p1-desc'>
           <h2>Heart-Disease-Perdiction</h2>
-          <p>Heart Disease Prediction is a machine learning-based healthcare application that predicts whether a person is at risk of heart 
-          disease based on various medical parameters such as age, blood pressure, cholesterol levels, chest pain type, heart rate, and other health indicators.</p>
+          <p>Heart Disease Prediction is a machine learning-based healthcare application that predicts whether a person is at risk of heart
+            disease based on various medical parameters such as age, blood pressure, cholesterol levels, chest pain type, heart rate, and other health indicators.</p>
+          <span>Python</span>
+          <span>Flask</span>
+          <span>Pandas</span>
+          <span>Scikit-learn</span>
+          <span>Numpy</span>
+          <span>jinja2</span>
+          <span>joblib</span>
           {/* <a href="YOUR_LIVE_LINK" target="_blank">Live Demo</a> */}
           <a href="https://github.com/rana-ji0001/Heart-Disease-Prediction" target="_blank"><FaGithub />Github</a>
 
