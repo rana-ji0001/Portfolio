@@ -43,6 +43,7 @@ const Footer = () => {
           <FaEnvelope /> Email
         </a>
       </div>
+      <div className="line">Made With ❣️ | By Karan Rana</div>
 
     </footer>
   );

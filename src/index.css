@@ -1211,3 +1211,16 @@ html {
   align-items: center;
   justify-content: center;
 }
+.line {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-top: 24px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 226, 154, 0.18);
+  color: #ffe29a;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
